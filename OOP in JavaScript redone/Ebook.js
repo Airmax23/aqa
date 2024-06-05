@@ -6,7 +6,6 @@ export class EBook extends Book {
         this._fileFormat = fileFormat;
     }
 
-    
     get fileFormat() {
         return this._fileFormat;
     }

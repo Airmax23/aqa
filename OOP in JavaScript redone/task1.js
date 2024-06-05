@@ -1,5 +1,5 @@
 import { Book } from './Book.js';
-import { EBook } from './EBook.js';
+import { EBook } from './Ebook.js';
 
 let book1 = new Book("Великий Гетсбі", "Ф. Скотт Фіцджеральд", 1925);
 let book2 = new Book("1984", "Джордж Орвелл", 1949);
