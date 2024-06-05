@@ -6,7 +6,7 @@ export class EBook extends Book {
         this._fileFormat = fileFormat;
     }
 
-    // Геттери та сеттери
+    
     get fileFormat() {
         return this._fileFormat;
     }

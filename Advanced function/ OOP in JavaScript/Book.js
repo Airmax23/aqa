@@ -5,7 +5,7 @@ export class Book {
         this._publicationYear = publicationYear;
     }
 
-    // Геттери та сеттери
+ 
     get title() {
         return this._title;
     }
@@ -16,9 +16,10 @@ export class Book {
         } else {
             console.log("Назва повинна бути рядком");
         }
+
     }
 
-    // Інші геттери та сеттери...
+  
 
     printInfo() {
         console.log(`Назва: ${this._title}, Автор: ${this._author}, Рік видання: ${this._publicationYear}`);
