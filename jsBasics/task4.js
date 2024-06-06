@@ -11,7 +11,7 @@
 
 //console.log(age);
 // fix code
-let age = 17;
+let age = 10;
 let isAdult = age >= 18;
 
 console.log(isAdult);
