@@ -5,7 +5,7 @@ describe('Basic queries', () => {
     cy.visit('https://www.saucedemo.com/');
   })
 
-  it('GET', () =>{
+  it('Elements getting practice', () =>{
     cy.get('#login-button');
     cy.get('[data-test="username"]');
     cy.contains('input', 'Login');
