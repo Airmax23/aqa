@@ -18,8 +18,7 @@ export default defineConfig({
   reporter: 'html',
   globalSetup: 'global-setup.ts',
   globalTeardown: 'global-setup.ts',
-  testIgnore: '**.skip.**.ts',
-  testMatch: '**.e2e.ts',
+  testMatch: '**.spec.ts',
   outputDir: 'res',
   timeout: 60 * 1000,
   use: {
@@ -27,7 +26,7 @@ export default defineConfig({
     baseURL: 'https://playwright.dev',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'retain-on-failure',
+    trace: 'on',
   },
   /* Configure projects for major browsers */
   projects: [
